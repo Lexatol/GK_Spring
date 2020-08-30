@@ -1,5 +1,7 @@
 package Lesson_3.Task1;
 
+import org.hibernate.annotations.Cascade;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -23,6 +25,7 @@ public class Product {
     private Vendor product_vendor;
 
     @ManyToMany
+//    @Cascade(org.hibernate.annotations.CascadeType.DELETE)
     @JoinTable (
             name = "list_shop",
             joinColumns = @JoinColumn(name = "id_product"),
