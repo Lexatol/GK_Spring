@@ -2,7 +2,7 @@ package Lesson4.entites;
 
 import javax.persistence.*;
 
-@Entity
+ @Entity
 @Table (name = "vendor")
 public class Vendor {
     @Id

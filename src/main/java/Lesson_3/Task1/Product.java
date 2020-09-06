@@ -1,7 +1,5 @@
 package Lesson_3.Task1;
 
-import org.hibernate.annotations.Cascade;
-
 import javax.persistence.*;
 import java.util.List;
 

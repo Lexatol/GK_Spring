@@ -9,7 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 
-@Controller
+ @Controller
 @RequestMapping("/shop")
 
 public class ProductController {

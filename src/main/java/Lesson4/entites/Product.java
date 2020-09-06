@@ -4,7 +4,7 @@ import com.sun.javafx.beans.IDProperty;
 
 import javax.persistence.*;
 
-@Entity
+ @Entity
 @Table (name = "product")
 public class Product {
     @Id
